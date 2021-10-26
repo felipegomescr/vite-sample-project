@@ -1,12 +1,10 @@
 import { Route } from "wouter";
-import HomePage from "./pages";
-import ClientPage from "./pages/client";
+import ClientPage from "./pages";
 
 export function App() {
   return (
     <>
-      <Route path="/" component={HomePage} />
-      <Route path="/client" component={ClientPage} />
+      <Route path="/" component={ClientPage} />
     </>
   );
 }
